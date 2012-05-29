@@ -1,0 +1,2 @@
+net.uguryildiz.android.kredihesaplama
+=====================================
