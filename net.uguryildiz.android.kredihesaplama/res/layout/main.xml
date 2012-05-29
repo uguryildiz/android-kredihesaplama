@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/appMesaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mesaj" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tutar" />
+
+    <EditText
+        android:id="@+id/krediTutar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vade" />
+
+    <EditText
+        android:id="@+id/krediVade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oran" />
+
+    <EditText
+        android:id="@+id/krediOran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/hesaplaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hesapla" android:onClick="krediHesaplaClickHandler"/>
+
+    <TextView
+        android:id="@+id/krediTaksit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/taksit"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

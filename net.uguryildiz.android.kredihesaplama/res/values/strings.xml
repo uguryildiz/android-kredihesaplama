@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mesaj">Lütfen kredi bilgilerini doldurunuz!</string>
+    <string name="app_name">Kredi Hesaplama</string>
+    <string name="tutar">Çekilecek Tutar</string>
+    <string name="vade">Vade (Ay)</string>
+    <string name="oran">Faiz Oranı</string>
+    <string name="hesapla">Hesapla</string>
+    <string name="taksit"></string>
+
+</resources>
