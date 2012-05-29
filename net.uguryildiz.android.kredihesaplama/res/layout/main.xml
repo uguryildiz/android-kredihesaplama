@@ -9,7 +9,7 @@
         android:id="@+id/appMesaj"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/mesaj" />
+        android:text="@string/mesaj" android:textColor="#CC00FF"/>
 
     <TextView
         android:id="@+id/textView1"
